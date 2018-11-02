@@ -2,6 +2,7 @@
 Imports System.Globalization
 Imports System.Text.RegularExpressions
 
+'comment after fetching it on the desktop
 Public Class Form1
     Private Sub btnValidate_Click(sender As System.Object, e As System.EventArgs) Handles btnValidate.Click
         Dim regex As Regex = New Regex("(((0|1)[0-9]|2[0-9]|3[0-1])\/(0[1-9]|1[0-2])\/((19|20)\d\d))$")
